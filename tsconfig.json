@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",   // Onde o JS compilado será gerado
+      "target": "ES5",      // Compilação para ES5 para melhor compatibilidade
+      "module": "commonjs",
+      "sourceMap": false     // Desativa a geração de arquivos source maps (caso não precise)
+    },
+    "include": [
+      "app.ts"  // Inclua seu arquivo TypeScript
+    ]
+  }
+  

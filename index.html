@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Frete</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consultar preço de frete</h1>
+        <label for="nomePessoa">Digite o nome da pessoa (Ex: pessoa 1, pessoa 2, pessoa 3):</label>
+        <input type="text" id="nomePessoa" placeholder="Digite o nome da pessoa" />
+        <button onclick="calcularFrete()">Consultar</button>
+
+        <div id="resultado">
+            <p id="mensagemResultado"></p>
+        </div>
+    </div>
+
+    <script src="dist/app.js"></script>
+
+</body>
+</html>
